@@ -1,0 +1,19 @@
+.rightside{
+    padding-left: 250px;
+    background-color: #E5E5E5;
+}
+.pagecontents{
+    margin-left: 145px;
+    margin-right: 145px;
+}
+/* .ads{
+    display:flex;
+    flex-wrap: wrap;
+} */
+.cards{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:10px,10px;
+
+}

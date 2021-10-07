@@ -1,20 +1,19 @@
-.rightside
+.Ads
 {
-    margin: 15;
-    margin-left: 250px;
-    margin-top: 25px;
-    position: relative;
     background-image: linear-gradient(rgb(24, 8, 165), rgb(155, 136, 240));
     display: flex;
+    flex-wrap: wrap;
     justify-content:space-evenly;
-    height:320px;
+    /* height:320px; */
+    margin-bottom: 20px;
 }
 .contents{
     color: white;
-    width:430px;
+    /* width:430px; */
 
     padding-top: 70px;
 }
+
 
 .button_div{
     padding-top: 15px;
