@@ -3,8 +3,8 @@
     background-color: #E5E5E5;
 }
 .pagecontents{
-    margin-left: 145px;
-    margin-right: 145px;
+    margin-left: 50px;
+   
 }
 /* .ads{
     display:flex;
@@ -14,6 +14,6 @@
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin:10px,10px;
+    margin-bottom: 30px;
 
 }

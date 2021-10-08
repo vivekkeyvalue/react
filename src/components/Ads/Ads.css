@@ -14,16 +14,18 @@
     padding-top: 70px;
 }
 
-
-.button_div{
-    padding-top: 15px;
+.button_start{
+    margin-top: 10px;
 }
-button
+
+.button_div
 {
     background-color: coral;
     color:cornsilk;
     width:197px;
     height:38px;
     border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
    
 }
