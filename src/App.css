@@ -1,7 +1,17 @@
+.app{
+    display: flex;
+    flex-direction: column;
+}
 .rightside{
-    padding-left: 250px;
+    /* padding-left: 250px; */
     background-color: #E5E5E5;
 }
+
+@media only screen and (min-width: 600px) {
+    .rightside {
+      padding-left: 250px;
+    }
+  }
 .pagecontents{
     margin-left: 50px;
    
@@ -10,6 +20,9 @@
     display:flex;
     flex-wrap: wrap;
 } */
+
+
+
 .cards{
     display:flex;
     flex-wrap: wrap;
