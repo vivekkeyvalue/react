@@ -1,7 +1,6 @@
 import Ads from "./components/Ads/Ads";
 import Sidebar from "./components/Sidebar/Sidebar";
 import "./App.css";
-import BasicCard from "./components/Cards/Cardui";
 import Card from "./components/Cards/Card";
 import image1 from './images/image1.png';
 import image2 from './images/image2.png';
