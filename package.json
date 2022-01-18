@@ -8,7 +8,6 @@
     "@lhci/cli": "^0.8.2",
     "@mui/icons-material": "^5.0.1",
     "@mui/material": "^5.0.2",
-    "@testing-library/j est-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "react": "^17.0.2",
@@ -21,8 +20,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "ci:lighthouse":"lhci autorun"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
