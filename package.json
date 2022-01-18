@@ -5,7 +5,6 @@
   "dependencies": {
     "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
-    "@lhci/cli": "^0.8.2",
     "@mui/icons-material": "^5.0.1",
     "@mui/material": "^5.0.2",
     "@testing-library/react": "^11.2.7",
@@ -20,7 +19,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "ci:lighthouse": "lhci autorun"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@lhci/cli": "^0.8.2"
   }
 }
