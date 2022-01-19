@@ -18,7 +18,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "ci:lint": "eslint./src",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "ci:lighthouse": "lhci autorun"
