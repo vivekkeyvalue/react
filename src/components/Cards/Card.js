@@ -1,6 +1,7 @@
 import React from "react";
 import "./Card.css";
 
+// eslint-disable-next-line react/prop-types
 const Card = ({ heading, content, button, image }) => {
   return (
     <div className="card">

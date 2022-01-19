@@ -1,3 +1,4 @@
+import React from 'react'
 import Ads from "./components/Ads/Ads";
 import Sidebar from "./components/Sidebar/Sidebar";
 import "./App.css";

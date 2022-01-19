@@ -1,10 +1,11 @@
+import React from 'react'
 import { useState } from "react";
 import data from "./data";
 import Question from "./Question";
 import './Accordion.css';
 
 const Accordion = () => {
-  const [question, setQuestion] = useState(data);
+  const [question] = useState(data);
 
   return (
     <div className="acc_container">

@@ -3,11 +3,11 @@ import './Sidebar.css';
 
 const Sidebar = () => {
   return (<div className="sidebar">
-    <div class="heading">
+    <div className="heading">
               
                     <span>Tokko Free</span>
     </div>
-        <div class="menu_items">
+        <div className="menu_items">
                 <li id ="performa">
                     <span>Home</span>
                 </li>

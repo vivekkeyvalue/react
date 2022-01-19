@@ -1,7 +1,9 @@
 import { useState } from "react";
+import React from 'react'
 import { FaAngleDown,FaAngleUp} from "react-icons/fa";
 import "./Question.css";
 
+// eslint-disable-next-line react/prop-types
 const Question = ({ title, info }) => {
   const [expanded, setExpanded] = useState(false);
   return (
