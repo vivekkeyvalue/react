@@ -21,6 +21,7 @@
     "build": "react-scripts build",
     "ci:lint": "eslint",
     "test": "jest-ci --coverage && eslint .",
+    "ci:test":"jest--ci",
     "eject": "react-scripts eject",
     "ci:lighthouse": "lhci autorun"
   },
